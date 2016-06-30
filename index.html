@@ -12,13 +12,14 @@
                 <form id="flickr-search-form">
                     <label for="flickr-search-input">Search Term: </label>
                     <input type="text" id="flickr-search-input" />
-                    <button type="submit" class="flickr-search-button">Search</button>
+                    <button type="submit" id="flickr-search-submit" class="flickr-search-button">Search</button>
                 </form>
             </section>
             <main class="flickr-gallery">
                 <section id="image-results">
                 </section>
                 <button id="show-more-photos" class="flickr-search-button is-hidden">Show More Photos</button>
+                <section id="error-message" class="is-hidden"></section>
             </main>
             <div id="lightbox" class="is-hidden">
                 <header class="lightbox-header">
