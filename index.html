@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>lightbox</title>
+    </head>
+    <body>
+        <div class="flickr-search-app">
+            <section class="search-menu">
+                <h1>Flickr Search</h1>
+                <form id="flickr-search-form">
+                    <label for="flickr-search-input">Search</label>
+                    <input type="text" id="flickr-search-input" />
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+            <main class="flickr-gallery">
+                <section id="image-results">
+                </section>
+                <button id="show-more-photos" class="is-hidden">Show More Photos</button>
+            </main>
+            <div id="lightbox" class="is-hidden">
+                <header class="lightbox-header">
+                    <span class="lightbox-which-photo">1 of 4</span>
+                    <span class="lightbox-close"></span>
+                </header>
+                <section class="lightbox-image-viewer">
+                    <div class="lightbox-previous-image"></div>
+                    <div id="lightbox-photo-wrapper"></div>
+                    <div class="lightbox-next-image"></div>
+                </section>
+                <footer class="lightbox-footer">
+                    I am a test title
+                </footer>
+            </div>
+        </div>
+    <script type="text/javascript" src="bundle.js"></script></body>
+</html>
